@@ -1,0 +1,17 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+$body-font-family: 'Pretendard', sans-serif !important;
+
+html,
+body {
+  font-family: $body-font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 960px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-xl: 1920px;
+}
+

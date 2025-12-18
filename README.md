@@ -27,21 +27,21 @@
 
 ## 디렉토리 구조 설계
 
-| 경로 | 설명                                                   |
-|:--|:-----------------------------------------------------|
-| /domain | 비즈니스 도메인 레이어 (Entity/Core/Domain 공통 규격)              |
-| /common | Front-end 공통 레이어 (DTO/VO/Enum/Utils/Model/Decorator) |
-| /composables | 로직 조합 레이어 (Application Service/Adapter 역할)           |
-| /components | 재사용 UI 컴포넌트 레이어 (표현 중심, 로직 최소화)                      |
-| /pages | 라우팅 엔트리(화면 단위) — 페이지 조합 및 데이터 연결                     |
-| /layouts | 페이지 공통 레이아웃(App Shell) — 헤더/푸터/네비 등                  |
-| /middleware | 라우트 접근 제어/가드 (인증/인가/리다이렉트 정책)                        |
-| /plugins | Nuxt 플러그인(외부 라이브러리/클라이언트 초기화)                        |
-| /server | 서버 레이어(API route/서버 미들웨어)                            |
-| /assets | 빌드 타임 자산(SCSS, 폰트 등)                                 |
-| /public | 정적 파일(그대로 서빙되는 리소스)                                  |
-| /observables | 전역 UI 이벤트 채널(RxJS 기반: modal/snackbar 등)              |
-| /tasks | 개발/운영 스크립트 모음 (환경별 실행 작업)                            |
+| 경로              | 설명                                                   |
+|:----------------|:-----------------------------------------------------|
+| /domain         | 비즈니스 도메인 레이어 (Entity/Core/Domain 공통 규격)              |
+| /common         | Front-end 공통 레이어 (DTO/VO/Enum/Utils/Model/Decorator) |
+| /composables    | 로직 조합 레이어 (Application Service/Adapter 역할)           |
+| /components     | 재사용 UI 컴포넌트 레이어 (표현 중심, 로직 최소화)                      |
+| /pages          | 라우팅 엔트리(화면 단위) — 페이지 조합 및 데이터 연결                     |
+| /layouts        | 페이지 공통 레이아웃(App Shell) — 헤더/푸터/네비 등                  |
+| /middleware     | 라우트 접근 제어/가드 (인증/인가/리다이렉트 정책)                        |
+| /plugins        | Nuxt 플러그인(외부 라이브러리/클라이언트 초기화)                        |
+| /server         | 서버 레이어(API route/서버 미들웨어)                            |
+| /assets         | 빌드 타임 자산(SCSS, 폰트 등)                                 |
+| /public         | 정적 파일(그대로 서빙되는 리소스)                                  |
+| /observables    | 전역 UI 이벤트 채널(RxJS 기반: modal/snackbar 등)              |
+| /tasks          | 개발/운영 스크립트 모음 (환경별 실행 작업)                            |
 | /nuxt.config.ts | Nuxt 설정(모듈/빌드/런타임 설정)                                |
 
 ## 아키텍처

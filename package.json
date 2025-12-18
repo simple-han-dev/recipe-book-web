@@ -10,13 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "nuxt": "^4.2.2",
+    "sass-embedded": "^1.97.0",
     "vue": "^3.5.25",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@oxc-minify/binding-darwin-arm64": "^0.103.0",
     "@oxc-parser/binding-darwin-arm64": "^0.103.0",
-    "@oxc-transform/binding-darwin-arm64": "^0.103.0"
+    "@oxc-transform/binding-darwin-arm64": "^0.103.0",
+    "sass": "^1.97.0",
+    "sass-loader": "^16.0.6",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vuetify": "^3.11.4"
   }
 }
