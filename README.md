@@ -22,7 +22,7 @@
 - Language: typescript
 - Front-end: Nuxt
 - Package Manager: pnpm
-- Style: vuetify
+- Style: nuxt ui
 - State: rxjs
 
 ## 디렉토리 구조 설계
